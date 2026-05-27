@@ -164,7 +164,7 @@
   font-family: var(--font-family);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height);
-  background-color: var(--title-decor); 
+  background-color: var(--title-decor);
 }
 
 .article__subtitle {
@@ -187,7 +187,7 @@
 }
 
 .article__link:hover {
-  border-bottom: 1px solid var(--article-text-color); 
+  border-bottom: 1px solid var(--article-text-color);
 }
 
 .article__link:focus {
@@ -210,7 +210,7 @@
   font-family: var(--font-family);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height);
-  background-color: var(--title-decor); 
+  background-color: var(--title-decor);
 }
 
 .gallery__image {
@@ -239,7 +239,7 @@
 }
 
 @media(width >= 768px) {
-  .header{
+  .header {
     min-height: 1024px;
     padding: 20px 0;
   }
@@ -261,7 +261,7 @@
     right: 29px;
   }
   .decorated-zone::before {
-    top: 20px; 
+    top: 20px;
     right: 20px;
   }
 
@@ -286,23 +286,23 @@
   .gallery__header {
     grid-column: 1 / 4;
   }
-  .gallery__image:nth-child(2){
+  .gallery__image:nth-child(2) {
     grid-column: span 2;
     grid-row: 2 / 3;
   }
-  .gallery__image:nth-child(3){
+  .gallery__image:nth-child(3) {
     grid-column: 3 / 4;
     grid-row: span 2;
   }
-  .gallery__image:nth-child(4){
+  .gallery__image:nth-child(4) {
     grid-column: 1 / 2;
     grid-row: 3 / 5;
   }
-  .gallery__image:nth-child(5){
+  .gallery__image:nth-child(5) {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
   }
-  .gallery__image:nth-child(6){
+  .gallery__image:nth-child(6) {
     grid-column: 2 / 4;
     grid-row: 4 / 5;
   }
@@ -313,22 +313,20 @@
 } 
 
 @media(width >= 1024px) {
-  .header{
+  .header {
     min-height: 768px;
     padding: 20px 0;
   }
   .header__theme-menu {
     justify-self: end;
     margin-right: 0;
+    align-self: start;
+    justify-self: center;
   }
   .header__text {
     margin-right: 20px;
     justify-self: end;
     width: 48%;
-  }
-  .header__theme-menu {
-    align-self: start;
-    justify-self: center;
   }
   .header__theme-menu-list {
     grid-auto-flow: column;
@@ -340,10 +338,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    place-items: start; 
+    place-items: start;
   }
   .footer {
-    min-height: 768px;  
+    min-height: 768px;
   }
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);

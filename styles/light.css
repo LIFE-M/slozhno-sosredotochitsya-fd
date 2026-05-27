@@ -3,12 +3,12 @@
   --background-color: #FFEEF7;
   --accent-color: #353430;
   --button-color: #353430;
-  --title-decor: #FF8DCB; 
+  --title-decor: #FF8DCB;
   --header-footer-title-color: #FFC2E6;
   --header-footer-title-shadow-color: #FF8DCB;
   --title-text-color: #353430;
   --article-text-color: #353430;
-  --link-color-shadow: #FF8DCB; 
+  --link-color-shadow: #FF8DCB;
   --button-color-hover: rgb(53, 52, 48, 0.4);
   --record-element-display: none;
 }
@@ -19,12 +19,12 @@
     --background-color: #FFEEF7;
     --accent-color: #353430;
     --button-color: #353430;
-    --title-decor: #FF8DCB; 
+    --title-decor: #FF8DCB;
     --header-footer-title-color: #FFC2E6;
     --header-footer-title-shadow-color: #FF8DCB;
     --title-text-color: #353430;
     --article-text-color: #353430;
-    --link-color-shadow: #FF8DCB; 
+    --link-color-shadow: #FF8DCB;
     --button-color-hover: rgb(53, 52, 4, 0.4);
     --record-element-display: none;
   }
