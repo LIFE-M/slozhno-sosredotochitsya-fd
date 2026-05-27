@@ -318,7 +318,6 @@
     padding: 20px 0;
   }
   .header__theme-menu {
-    justify-self: end;
     margin-right: 0;
     align-self: start;
     justify-self: center;
